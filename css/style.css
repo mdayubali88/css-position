@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.circle {
+  background: #212020;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto; }
+  .circle .left-eye, .circle .right-eye {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    translate: -50% -70%; }
+    .circle .left-eye .black-circle, .circle .right-eye .black-circle {
+      background: black;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      top: 50%;
+      left: 15%;
+      position: absolute; }
+      .circle .left-eye .black-circle .white-eye, .circle .right-eye .black-circle .white-eye {
+        width: 25px;
+        height: 25px;
+        background-color: #fdfffd;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        border-radius: 50%; }
+  .circle .left-eye {
+    inset: 50% 0 0 25%;
+    background: #ffffff; }
+  .circle .right-eye {
+    inset: 50% 0 0 75%;
+    background: #ffffff; }
+  .circle .mouth {
+    height: 50px;
+    width: 80px;
+    border-radius: 40px;
+    background: #fdfffd;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    translate: -50% -50%; }
+  .circle .left-ear, .circle .right-ear {
+    width: 80px;
+    height: 80px;
+    background: #212020;
+    position: absolute;
+    border-radius: 50%; }
+  .circle .left-ear {
+    top: -20px;
+    left: -20px; }
+  .circle .right-ear {
+    top: -20px;
+    right: -20px; }
+
+/*# sourceMappingURL=style.css.map */
